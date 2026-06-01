@@ -1,50 +1,43 @@
 🛒 DMart Sales Performance Dashboard
-Data Analyst Internship — Task 2: Data Visualization and Storytelling
 
-🎯 Objective
-Analyze DMart product and sales data using Power BI to uncover insights around pricing, discounts, categories, and brand performance — and present them through a compelling visual story.
+Elevate Labs · Data Analyst Internship · Task 2 — Data Visualization & Storytelling
 
-🛠 Tools Used
+Show Image
+Show Image
+Show Image
 
-Power BI — Dashboard creation and visual storytelling
-DAX — Calculated measures and KPIs
-DMart.csv — Product-level sales dataset (5,189 records)
+Overview
+A Power BI dashboard analyzing DMart's product pricing, discount strategy, and category performance across 5,189 products — built to tell a clear business story through data visualization.
 
+Key Metrics
+MetricValueTotal Products5,189Categories30 main · 86 sub-categoriesAverage MRP₹344Average Sale Price₹237Average Discount~31%Price Range₹0 – ₹10,990
 
-📁 Repository Contents
-FileDescriptionDMart.csvRaw dataset used for analysistask_2.pbixPower BI dashboard filescreenshot folder/Dashboard screenshots for quick previewREADME.mdProject documentation
+Repository Contents
+FileDescriptionDMart.csvRaw dataset — product records with pricing, brand & category datatask_2.pbixPower BI dashboard file — open with Power BI Desktop (free)screenshot folder/Dashboard screenshots for quick previewREADME.mdProject documentation
 
-📌 Dataset Overview
-DMart Product Sales Data
-ColumnDescriptionNameProduct nameBrandBrand of the productPriceOriginal MRPDiscountedPricePrice after discountCategoryMain product category (30 categories)SubCategorySub-level classification (86 sub-categories)QuantityStock/quantity infoDescriptionProduct descriptionBreadCrumbsCategory hierarchy path
+Dataset Columns
+ColumnDescriptionNameProduct nameBrandBrand name (top: Premia, Amul, Lakme, Britannia)PriceOriginal MRPDiscountedPriceFinal sale price after discountCategoryMain category (30 categories)SubCategorySub-level classification (86 sub-categories)DescriptionProduct descriptionBreadCrumbsFull category hierarchy path
 
-Total Records: 5,189 products
-Average MRP: ₹344
-Average Discounted Price: ₹237
-Price Range: ₹0 – ₹10,990
+Business Insights
 
-
-📈 Dashboard Story & Key Business Insights
-This dashboard tells the story of DMart's product pricing and discount strategy, helping stakeholders answer:
-
-Which categories offer the highest discounts? — Identifying where DMart is most competitive
-Top performing brands — Premia, Amul, Britannia, Lakme lead in product count
-Price vs Discount spread — Average discount of ~31% across all products
-Category-wise product distribution — Grocery, Personal Care, and Packaged Food dominate
-Premium vs Budget segments — Products range from daily essentials to ₹10,990 appliances
+Discount strategy — DMart offers an average 31% discount, revealing an aggressive pricing model to drive volume over margin.
+Top brands — Premia (155 products), Amul (79), Lakme (74), and Britannia (42) dominate, showing clear vendor concentration.
+Category spread — Grocery, Personal Care, and Packaged Food lead in product count, reflecting DMart's everyday-essentials focus.
+Price segmentation — Products span ₹0 to ₹10,990, covering both budget essentials and premium appliances.
+Deep catalog — 86 sub-categories across 30 main categories enables granular cross-category discount analysis.
 
 
-📊 Dashboard Features
+Dashboard Features
 
-✅ KPI Cards — Total Products, Avg MRP, Avg Discounted Price, Avg Discount %
-✅ Bar Chart — Top 10 Brands by Product Count
-✅ Category Distribution — Donut/Pie Chart of product spread across categories
-✅ Price vs Discounted Price — Comparison chart by category
-✅ Discount Analysis — Which categories give the best deals
-✅ Interactive Slicers — Filter by Category, Brand, Sub-Category
+✅ KPI cards — total products, avg MRP, avg sale price, avg discount %
+✅ Bar chart — top 10 brands by product count
+✅ Donut chart — category-wise product distribution
+✅ Price vs discounted price comparison by category
+✅ Discount % analysis — which categories offer the best deals
+✅ Interactive slicers — filter by category, brand, sub-category
 
 
-🖼 Dashboard Screenshots
+Dashboard Screenshots
 Overall Dashboard View
 Show Image
 KPI Cards Section
@@ -54,19 +47,18 @@ Show Image
 Filters & Slicers
 Show Image
 
-🧠 Design Principles Followed
+Design Principles Followed
 
-Chose the right chart type for each insight (bar for brand comparison, donut for category share, scatter for price analysis)
-Clean layout with a consistent dark navy + amber color theme
-KPI cards at the top for instant high-level understanding
-Every visual has a clear title and data labels for context
-Focus on business insights — discount strategy, brand dominance, pricing tiers
-A single summary dashboard page tells the full story at a glance
+Right chart for the data — bar for brand comparison, donut for category share, scatter for pricing spread
+Clean, consistent theme — navy + amber palette with no clutter or overuse of colors
+KPI cards first — instant high-level understanding before diving into charts
+Context in every visual — clear titles and data labels on each chart
+Single summary page — the full business story visible at a glance
 
 
-⏱ Time Period
-Product data snapshot — DMart catalog analysis
+Tools Used
+ToolPurposePower BI DesktopDashboard creation & visual storytellingDAXCalculated measures and KPIsCSV (DMart dataset)Source data
 
-👩‍💻 Author
+Author
 Shreya
-Data Analyst Internship — Elevate Labs
+Data Analyst Internship · Elevate Labs
