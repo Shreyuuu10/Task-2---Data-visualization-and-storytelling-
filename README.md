@@ -12,7 +12,7 @@ DMart.csv — Product-level sales dataset (5,189 records)
 
 
 📁 Repository Contents
-FileDescriptionDMart.csvRaw dataset used for analysistask_2.pbixPower BI Dashboard screenshots for quick previewREADME.mdProject documentation
+FileDescriptionDMart.csvRaw dataset used for analysistask_2.pbixPower BI dashboard filescreenshot folder/Dashboard screenshots for quick previewREADME.mdProject documentation
 
 📌 Dataset Overview
 DMart Product Sales Data
@@ -43,6 +43,16 @@ Premium vs Budget segments — Products range from daily essentials to ₹10,990
 ✅ Discount Analysis — Which categories give the best deals
 ✅ Interactive Slicers — Filter by Category, Brand, Sub-Category
 
+
+🖼 Dashboard Screenshots
+Overall Dashboard View
+Show Image
+KPI Cards Section
+Show Image
+Charts Section
+Show Image
+Filters & Slicers
+Show Image
 
 🧠 Design Principles Followed
 
