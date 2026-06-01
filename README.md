@@ -2,10 +2,6 @@
 
 Elevate Labs · Data Analyst Internship · Task 2 — Data Visualization & Storytelling
 
-Show Image
-Show Image
-Show Image
-
 Overview
 A Power BI dashboard analyzing DMart's product pricing, discount strategy, and category performance across 5,189 products — built to tell a clear business story through data visualization.
 
@@ -36,16 +32,6 @@ Dashboard Features
 ✅ Discount % analysis — which categories offer the best deals
 ✅ Interactive slicers — filter by category, brand, sub-category
 
-
-Dashboard Screenshots
-Overall Dashboard View
-Show Image
-KPI Cards Section
-Show Image
-Charts Section
-Show Image
-Filters & Slicers
-Show Image
 
 Design Principles Followed
 
